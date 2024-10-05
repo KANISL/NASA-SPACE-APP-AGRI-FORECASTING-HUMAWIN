@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>NASA Dashboard</h1>
+    </header>
+    <div class="container">
+        <div class="button-section">
+            <button class="big-button" onclick="showChart1()">Soil Moisture vs Precipitation</button>
+            <button class="big-button" onclick="showChart2()">Precipitation vs Drought Index</button>
+            <button class="big-button" onclick="showChart3()">Soil Moisture Distribution</button>
+        </div>
+        <div id="chart" class="chart-container"></div>
+    </div>
+
+    <footer>
+        <p>NASA International Space Apps Challenge 2024</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
